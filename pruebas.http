@@ -1,0 +1,9 @@
+### Registrar un producto válido
+POST http://localhost:8080/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Monitor",
+  "precio": 220.50,
+  "stock": 8
+}
